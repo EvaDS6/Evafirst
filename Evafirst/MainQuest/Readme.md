@@ -1,11 +1,12 @@
 
 ✨ 파라미터 튜닝 실험
-1. 
-2.
-3.
-4.
 
-실험 결과
+1. AutoIntMLPModel call 메서드에 training인자를 전달하여, 과적합방지
+2. 임베딩 레이어 초기화 수정 (FeaturesEmbedding) build함수 대신 표준 keras방식으로 변경
+3. Layer Nomalization 추가. Self-Attention구조 (Transformer계열)에서는 성능개선 가능
+4. 활성화 함수 relu에서 gelu로 변경
+
+✨ 실험 결과
 - ndcg : 0.66381 ( 0.66142 기존대비 0.3%개선)
 - hitrate : 0.63184 ( 0.62982 기존대비 0.3%개선)
 
