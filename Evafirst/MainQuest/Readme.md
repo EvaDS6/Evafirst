@@ -19,6 +19,6 @@
   - 반면 실험 코드에서는 영화 제작년도에 주목해서 1990년도 영화 위주로 추천해주었다.
  
 - 기존코드
-  - <img width="558" height="343" alt="1_추천" src="https://github.com/user-attachments/assets/2e95db82-ad44-47fa-b7d5-28c361fd124f" />
+  <img width="558" height="343" alt="1_추천" src="https://github.com/user-attachments/assets/2e95db82-ad44-47fa-b7d5-28c361fd124f" />
 - 실험코드
-  - <img width="560" height="347" alt="2_추천" src="https://github.com/user-attachments/assets/16b592a4-e9ee-4a52-8881-8da88f24f35c" />
+  <img width="560" height="347" alt="2_추천" src="https://github.com/user-attachments/assets/16b592a4-e9ee-4a52-8881-8da88f24f35c" />
