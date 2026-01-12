@@ -1,9 +1,9 @@
-## ✨ 피쳐엔지니어링 실험 ( 1/11일 두번째 실험)
+## ✨ 피쳐엔지니어링 실험 ( 1/11일 두번째 실험, 5개피쳐 추가)
 - 실험 파일명 (data_prepro3.ipynb, autoint_mlp4_train.ipynb, autointmlp3,py, show_st_plus3.py)
 
-1. 영화 인기도(movie_pop), 평균 평점(movie_rate), 유저 활동성(user_act) 등을 추가하여 Cold-start 문제를 완화
-2. 개봉 후 경과 기간(release_lag)을 추가하여 최신성 트렌드를 반영
-3. age_gender(20대_남성)와 같이 유의미한 그룹 정보를 명시적으로 결합
+1. 영화 인기도(__movie_pop__), 유저 활동성(__user_act__)을 추가하여 Cold-start 문제를 완화
+2. 개봉 후 경과 기간(__release_lag__)을 추가하여 최신성 트렌드를 반영
+3. __age_gender__(예시 : 20대_남성), __age_genre__(예시 : 20대 코미디)와 같이 유의미한 그룹 정보를 명시적으로 결합
 4. 랜덤영화를 추출해서 학습하던 부분을 Hard Negative(인기는 많은데 안 본 영화)와 무작위를 5:5 비율로 섞어서 학습.
 5. 학습시 하이퍼 파라미터 추가 튜닝
   - 임베딩 차원 16 -> 64
